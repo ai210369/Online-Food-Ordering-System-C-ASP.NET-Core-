@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Homee.master.cs" Inherits="Homee" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder><meta name="format-detection" content="telephone=no"/>
+    <link href="homeeStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+      
+          <main>
+            <h4><em>Welcome to Secangkir Cafe</em></h4>
+        <section class="well well__offset-1 bg-1">
+           <div class="toggle-menu-container">
+            <nav class="nav">
+                <div class="nav_title"></div>
+                <a class="sf-menu-toggle fa fa-bars" href="#"></a>
+                <ul class="sf-menu">
+                <li>
+                        <asp:Label Text="" runat="server" ID="lblname"></asp:Label>
+                    </li>
+                    <li class="active">
+                        <a href="Home.aspx">Home</a><line>&nbsp;&nbsp;&nbsp;|</line>
+                    </li>
+                    <li>
+                        <a href="Account.aspx">Profile</a><line>&nbsp;&nbsp;&nbsp;|</line>
+                    </li>
+                    <li>
+                        <a href="MyOrder.aspx">My Order</a><line>&nbsp;&nbsp;&nbsp;|</line>
+                    </li> <li>
+                        <a href="MyCart.aspx">My Cart</a><line>&nbsp;&nbsp;&nbsp;|</line>
+                    </li>
+                    <li>
+                        <a href="Password.aspx">Reset Password</a><line>&nbsp;&nbsp;&nbsp;|</line>
+                    </li>
+                    <li>
+                        <a href="Default.aspx">Logout</a>
+                    </li>
+                </ul>
+            </nav>            
+        </div>
+
+
+            <div id="contt">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></div>
+        </section>
+    </main>
+    </form>
+</body>
+</html>

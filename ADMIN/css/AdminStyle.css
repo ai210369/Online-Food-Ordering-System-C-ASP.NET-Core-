@@ -1,0 +1,44 @@
+﻿body {
+    background-color: rgb(237,237,237);
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid rgb(224,224,224);
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 50px;
+    background-image: url("../image/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box {
+    margin-top: 100px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(254,254,254);
+    border: 1px solid rgb(224,224,224);
+    border-radius: 5px 5px 5px 5px;
+    padding: 50px 0;
+}
+
+.box image {
+     margin: 5px;
+}
+
+
+.tablestyle {
+    margin: 5px auto 20px auto;
+    text-align: left;
+}

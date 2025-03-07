@@ -1,0 +1,10 @@
+﻿body {
+}
+
+:root {
+    /*Color Set one*/
+    --primary-color: #FFEDDB;
+    --secondary-color: #EDCDBB;
+    --tertiary-color: #E3B7A0;
+    --fourth-color: #BF9270;
+}

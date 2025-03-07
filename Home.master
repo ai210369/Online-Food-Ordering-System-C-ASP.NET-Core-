@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder><meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/grid.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/camera.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+      
+          <main>
+          <br /><br /><h4><em>Welcome to Secangkir Cafe</em></h4><br />
+         
+           <div class="toggle-menu-container">
+            <nav class="nav">
+                <div class="nav_title"></div>
+                <a class="sf-menu-toggle fa fa-bars" href="#"></a>
+                <ul class="sf-menu">
+                    <li class="active">
+                        <a href="Default.aspx">Home</a>
+                    </li>
+                    <li>
+                        <a href="Registration.aspx">Registration</a>
+
+                    </li>
+                    <li>
+                        <a href="Login.aspx">Member Login</a>
+                    </li> <li>
+                        <a href="Fpassword.aspx">Forgot Password</a>
+                    </li>
+                    <li>
+                        <a href="ADMIN/AdminLogin.aspx">Admin Login</a>
+                    </li>
+                    <li>
+                        <a href="Contactus.aspx">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>            
+        </div>
+
+
+
+            <div id="contt">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></div>
+
+    </main>
+
+
+
+    </div><script src="js/script.js"></script>
+    </form>
+
+</body>
+</html>

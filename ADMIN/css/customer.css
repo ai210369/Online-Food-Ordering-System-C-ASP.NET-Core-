@@ -1,0 +1,144 @@
+﻿main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 82vw;
+    height: 85vh;
+    background-color: #fffb;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.table__header {
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .table__header .input-group {
+        width: 35%;
+        height: 100%;
+        background-color: #fff5;
+        padding: 0 .8rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s;
+    }
+
+.table__header .input-group:hover {
+    width: 45%;
+    background-color: #fff8;
+    box-shadow: 0 .1rem .4rem #0002;
+}
+
+.table__header .input-group input {
+    width: 70%; /* Adjust the width as needed */
+    padding: 1rem .8rem; /* Adjust the padding values as needed */
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+.table__body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+}
+
+    .table__body::-webkit-scrollbar {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    .table__body::-webkit-scrollbar-thumb {
+        border-radius: .5rem;
+        background-color: #0004;
+        visibility: hidden;
+    }
+
+    .table__body:hover::-webkit-scrollbar-thumb {
+        visibility: visible;
+    }
+
+.table__grid {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__header-row {
+    background-color: #d5d1defe;
+}
+
+.table__header-cell {
+    padding: 1rem;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.table__cell {
+    padding: 1rem;
+    text-align: left;
+}
+
+.table__body tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+.table__body tr:hover {
+    background-color: #fff6 !important;
+}
+
+.table__body td p {
+    transition: .2s ease-in-out;
+}
+
+.table__body td.hide p {
+    padding: 0;
+    font: 0 / 0 sans-serif;
+    transition: .2s ease-in-out .5s;
+}
+
+.table__body td.hide img {
+    width: 0;
+    height: 0;
+    transition: .2s ease-in-out .5s;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon-link {
+    display: inline-block;
+}
+
+

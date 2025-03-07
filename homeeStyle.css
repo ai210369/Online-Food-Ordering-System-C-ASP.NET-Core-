@@ -1,0 +1,88 @@
+﻿/* Reset default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page {
+    background-color: #f5f5f5;
+}
+
+/* Main content styles */
+main {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.well {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-1 {
+    background-color: #f5f5f5;
+}
+
+.well__offset-1 {
+    margin-left: 0px;
+}
+
+.toggle-menu-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.sf-menu {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+    .sf-menu li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .sf-menu a {
+        color: #333;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+        .sf-menu a:hover {
+            color: #999;
+        }
+
+#contt {
+    margin-top: 40px;
+}
+
+/* Additional styles */
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #423e3e;
+    color: white;
+}
