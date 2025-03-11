@@ -1,0 +1,16 @@
+# JavaScript files (e.g., .js)
+*.js text linguist-language=JavaScript
+
+# ASP.NET files (e.g., .aspx, .cshtml, .ashx)
+*.aspx text linguist-language=ASP.NET
+*.cshtml text linguist-language=ASP.NET
+*.ashx text linguist-language=ASP.NET
+
+# CSS files (e.g., .css)
+*.css text linguist-language=CSS
+
+# PHP files (e.g., .php)
+*.php text linguist-language=PHP
+
+# C# files (e.g., .cs)
+*.cs text linguist-language=C#
