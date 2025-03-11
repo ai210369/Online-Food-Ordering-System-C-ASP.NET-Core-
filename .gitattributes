@@ -1,5 +1,6 @@
 # JavaScript files (e.g., .js)
-*.js text linguist-language=JavaScript
+# *.js linguist-detactable=false
+*.js linguist-generated=true
 
 # ASP.NET files (e.g., .aspx, .cshtml, .ashx)
 *.aspx text linguist-language=ASP.NET
