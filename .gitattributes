@@ -1,5 +1,4 @@
 # JavaScript files (e.g., .js)
-# *.js linguist-detactable=false
 *.js linguist-generated=true
 
 # ASP.NET files (e.g., .aspx, .cshtml, .ashx)
